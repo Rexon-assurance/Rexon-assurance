@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Rexon Assurance</title>
+
+<style>
+body{
+font-family: Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#003366;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#0055aa;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:40px;
+text-align:center;
+}
+
+.services{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.service{
+background:white;
+padding:20px;
+border-radius:10px;
+width:250px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+footer{
+background:#003366;
+color:white;
+text-align:center;
+padding:15px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Rexon Assurance</h1>
+<p>Votre assurance automobile fiable et rapide</p>
+</header>
+
+<nav>
+<a href="#">Accueil</a>
+<a href="#">Services</a>
+<a href="#">Devis</a>
+<a href="#">Contact</a>
+</nav>
+
+<section>
+<h2>Bienvenue chez Rexon Assurance</h2>
+<p>Nous protégeons votre véhicule avec les meilleures garanties au meilleur prix.</p>
+</section>
+
+<section>
+<h2>Nos Services</h2>
+
+<div class="services">
+
+<div class="service">
+<h3>Assurance Auto</h3>
+<p>Protection complète pour votre véhicule.</p>
+</div>
+
+<div class="service">
+<h3>Assurance Tous Risques</h3>
+<p>Couverture maximale pour rouler en toute sécurité.</p>
+</div>
+
+<div class="service">
+<h3>Devis Rapide</h3>
+<p>Obtenez votre devis en quelques minutes.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+<h2>Contact</h2>
+<p>Email : contact@rexonassurance.com</p>
+<p>Téléphone : +33 00 00 00 00</p>
+</section>
+
+<footer>
+<p>© 2026 Rexon Assurance - Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
